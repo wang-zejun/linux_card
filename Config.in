@@ -1,0 +1,2 @@
+source "$BR2_EXTERNAL_LINUXCARD_PATH/package/linuxcard-flashdrive/Config.in"
+

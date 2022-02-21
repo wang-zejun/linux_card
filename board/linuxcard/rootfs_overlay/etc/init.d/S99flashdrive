@@ -1,0 +1,15 @@
+#! /bin/sh
+
+case "$1" in
+        start|"")
+                echo 0 > /sys/class/udc/musb-hdrc.1.auto/device/gadget/lun0/ro
+                echo /dev/mtdblock2 > /sys/class/udc/musb-hdrc.1.auto/device/gadget/lun0/file
+                ;;
+        stop)
+                echo '' > /sys/class/udc/musb-hdrc.1.auto/device/gadget/lun0/file
+                ;;
+        *)
+                echo "Usage: flashdrive {start|stop}" >&2
+                exit 1
+                ;;
+esac

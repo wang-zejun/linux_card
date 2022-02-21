@@ -1,0 +1,11 @@
+config BR2_PACKAGE_LINUXCARD_FLASHDRIVE
+	bool "linuxcard-flashdrive"
+	select BR2_PACKAGE_HOST_GENIMAGE
+	select BR2_PACKAGE_HOST_DOSFSTOOLS
+	select BR2_PACKAGE_HOST_MTOOLS
+	help
+	  The "flash drive" image that appears when you plug my linux card into
+	  a PC.
+
+	  https://github.com/wang-zejun
+
