@@ -16,7 +16,7 @@ jobs:
       run: git submodule update --init
     - name: Compile
       run: |
-        apt install python-dev
+        sudo apt install python-dev
         cd buildroot
         make BR2_EXTERNAL=$PWD/.. linuxcard_defconfig
         make
