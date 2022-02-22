@@ -1,5 +1,7 @@
 # Linux Card
 
+[![Actions Status](https://github.com/wang-zejun/linux_card/workflows/CI/badge.svg)](https://github.com/wang-zejun/linux_card/actions)
+
 这是一个足够小的 Linux 发行版，可以从我的 Linux 名片上的 16MB 存储空间运行。
 它由 Allwinner F1C100s 提供支持，这是一款 1.40 美元的支持 Linux 的 ARM 片上系统。
 此存储库是其固件映像的源代码，基于 Buildroot 2021.02.09。
