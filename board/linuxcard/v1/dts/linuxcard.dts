@@ -73,19 +73,19 @@
 
             partition@100000 {
                 label = "rootfs";
-                reg = <0x100000 0xA00000>;
+                reg = <0x100000 0x800000>;
                 //read-only;
             };
 
-            partition@B00000 {
+            partition@900000 {
                 label = "flash";
-                reg = <0xB00000 0x200000>;
+                reg = <0x900000 0x200000>;
                 //read-only;
             };
                         
-            partition@D00000 {
+            partition@B00000 {
                 label = "rootubi";
-                reg = <0xD00000 0x300000>;
+                reg = <0xB00000 0x500000>;
                 //read-only;
             };
         };

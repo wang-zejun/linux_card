@@ -35,12 +35,12 @@ CONFIG_CMD_BOOTZ=y
 CONFIG_CMD_SF=y
 CONFIG_CMD_MTDPARTS=y
 CONFIG_MTDIDS_DEFAULT="nor0=spi-flash"
-CONFIG_MTDPARTS_DEFAULT="mtdparts=spi-flash:1M(uboot),10M(rootfs),2M(flashdrive),-(rootubi)"
+CONFIG_MTDPARTS_DEFAULT="mtdparts=spi-flash:1M(uboot),8M(rootfs),2M(flashdrive),-(rootubi)"
 CONFIG_CMD_LOG=y
 CONFIG_CMD_UBI=y
 # CONFIG_CMD_UBIFS is not set
 # CONFIG_PARTITIONS is not set
-CONFIG_DEFAULT_DEVICE_TREE="businesscard"
+CONFIG_DEFAULT_DEVICE_TREE="linuxcard"
 # CONFIG_NET is not set
 CONFIG_HAVE_BLOCK_DEVICE=y
 CONFIG_LED=y
