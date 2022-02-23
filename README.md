@@ -7,6 +7,7 @@
 此存储库是其固件映像的源代码，基于 Buildroot 2021.02.09。
 该目录是“Buildroot external”，在主线 Buildroot 之上提供了一些补丁、附加包和板支持文件。
 
+![linux card top](doc/images/linux_card.jpg)
 
 ## 构建
 
@@ -39,3 +40,4 @@ See also the [Buildroot license notice][buildroot-license] for more nuances abou
 Patches are not covered by this license. Instead, they are covered by the license of the software to which the patches are applied.
 
 
+[ buildroot-license ]：https://buildroot.org/downloads/manual/manual.html#legal-info-buildroot
