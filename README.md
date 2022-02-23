@@ -30,7 +30,7 @@
 这可能需要几个小时才能从头开始，具体取决于您机器的速度。
 ## 烧写
 
-	output/host/bin/sunxi-fel -p spiflash-write 0 output/images/flash.bin
+	sudo sunxi-fel -p spiflash-write 0 output/images/flash.bin
 
 ## License
 
@@ -40,4 +40,4 @@ See also the [Buildroot license notice][buildroot-license] for more nuances abou
 Patches are not covered by this license. Instead, they are covered by the license of the software to which the patches are applied.
 
 
-[ buildroot-license ]：https://buildroot.org/downloads/manual/manual.html#legal-info-buildroot
+[buildroot-license]: https://buildroot.org/downloads/manual/manual.html#legal-info-buildroot
