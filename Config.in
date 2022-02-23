@@ -1,2 +1,5 @@
 source "$BR2_EXTERNAL_LINUXCARD_PATH/package/linuxcard-flashdrive/Config.in"
+source "$BR2_EXTERNAL_LINUXCARD_PATH/package/2048/Config.in"
+source "$BR2_EXTERNAL_LINUXCARD_PATH/package/rogue/Config.in"
+source "$BR2_EXTERNAL_LINUXCARD_PATH/package/librecode/Config.in"
 
