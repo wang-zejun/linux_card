@@ -32,7 +32,6 @@
 	leds {
 		compatible = "gpio-leds";
 		pinctrl-names = "default";
-		pinctrl-0 = <&led_pins>;
 
 		heartbeat {
 			label = "Heartbeat";
